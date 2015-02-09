@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A25D72301A855C38009C923D /* Temp */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A25D723A1A855C38009C923D /* Build configuration list for PBXAggregateTarget "Temp" */;
+			buildPhases = (
+				A25D722F1A855C38009C923D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Temp;
+			productName = "BUILD ALL";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A25D72A31A86A3FD009C923D /* WMOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72A11A86A3FD009C923D /* WMOperation.h */; };
+		A25D72A41A86A3FD009C923D /* WMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72A21A86A3FD009C923D /* WMOperation.m */; };
+		A25D72A71A86A58F009C923D /* WMCityWeather.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72A51A86A58F009C923D /* WMCityWeather.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25D72A81A86A58F009C923D /* WMCityWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72A61A86A58F009C923D /* WMCityWeather.m */; };
+		A25D72B31A86B87C009C923D /* WMQueryOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72B11A86B87C009C923D /* WMQueryOperation.h */; };
+		A25D72B41A86B87C009C923D /* WMQueryOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72B21A86B87C009C923D /* WMQueryOperation.m */; };
+		A25D72B61A86B8C3009C923D /* WMTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72B51A86B8C3009C923D /* WMTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25D72BD1A86BB0F009C923D /* WMCurrentWeatherQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72BB1A86BB0F009C923D /* WMCurrentWeatherQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25D72BE1A86BB0F009C923D /* WMCurrentWeatherQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72BC1A86BB0F009C923D /* WMCurrentWeatherQuery.m */; };
+		A25D72C01A86BB28009C923D /* WMParam.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72BF1A86BB28009C923D /* WMParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25D72C31A86BE61009C923D /* WMUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72C11A86BE61009C923D /* WMUtils.h */; };
+		A25D72C41A86BE61009C923D /* WMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72C21A86BE61009C923D /* WMUtils.m */; };
+		A25D72C81A86C474009C923D /* WMRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72C61A86C474009C923D /* WMRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25D72C91A86C474009C923D /* WMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72C71A86C474009C923D /* WMRequest.m */; };
+		A25D72CC1A86C58E009C923D /* WMRequest+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72CA1A86C58E009C923D /* WMRequest+Internal.h */; };
+		A25D72D11A86C796009C923D /* WMRequestBroker.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72CF1A86C796009C923D /* WMRequestBroker.h */; };
+		A25D72D21A86C796009C923D /* WMRequestBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72D01A86C796009C923D /* WMRequestBroker.m */; };
+		A25D72D51A86CC36009C923D /* WMRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72D41A86CC36009C923D /* WMRequestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A25D722D1A855C38009C923D /* WeatherSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25D72A11A86A3FD009C923D /* WMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMOperation.h; sourceTree = SOURCE_ROOT; };
+		A25D72A21A86A3FD009C923D /* WMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMOperation.m; sourceTree = SOURCE_ROOT; };
+		A25D72A51A86A58F009C923D /* WMCityWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCityWeather.h; sourceTree = SOURCE_ROOT; };
+		A25D72A61A86A58F009C923D /* WMCityWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCityWeather.m; sourceTree = SOURCE_ROOT; };
+		A25D72B11A86B87C009C923D /* WMQueryOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMQueryOperation.h; sourceTree = SOURCE_ROOT; };
+		A25D72B21A86B87C009C923D /* WMQueryOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMQueryOperation.m; sourceTree = SOURCE_ROOT; };
+		A25D72B51A86B8C3009C923D /* WMTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTypes.h; sourceTree = SOURCE_ROOT; };
+		A25D72BB1A86BB0F009C923D /* WMCurrentWeatherQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCurrentWeatherQuery.h; sourceTree = SOURCE_ROOT; };
+		A25D72BC1A86BB0F009C923D /* WMCurrentWeatherQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCurrentWeatherQuery.m; sourceTree = SOURCE_ROOT; };
+		A25D72BF1A86BB28009C923D /* WMParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMParam.h; sourceTree = SOURCE_ROOT; };
+		A25D72C11A86BE61009C923D /* WMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMUtils.h; sourceTree = SOURCE_ROOT; };
+		A25D72C21A86BE61009C923D /* WMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMUtils.m; sourceTree = SOURCE_ROOT; };
+		A25D72C61A86C474009C923D /* WMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRequest.h; sourceTree = SOURCE_ROOT; };
+		A25D72C71A86C474009C923D /* WMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMRequest.m; sourceTree = SOURCE_ROOT; };
+		A25D72CA1A86C58E009C923D /* WMRequest+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WMRequest+Internal.h"; sourceTree = SOURCE_ROOT; };
+		A25D72CF1A86C796009C923D /* WMRequestBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRequestBroker.h; sourceTree = SOURCE_ROOT; };
+		A25D72D01A86C796009C923D /* WMRequestBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMRequestBroker.m; sourceTree = SOURCE_ROOT; };
+		A25D72D41A86CC36009C923D /* WMRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMRequestProtocol.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A25D722A1A855C38009C923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2263FEC1A870D27006A024B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A29710B31A8872F90091739C /* Database */,
+				A25D72871A86A086009C923D /* Query */,
+				A25D72881A86A09B009C923D /* Result */,
+				A25D72891A86A0BA009C923D /* Operations */,
+				A25D72C11A86BE61009C923D /* WMUtils.h */,
+				A25D72C21A86BE61009C923D /* WMUtils.m */,
+				A25D72D41A86CC36009C923D /* WMRequestProtocol.h */,
+				A25D72CA1A86C58E009C923D /* WMRequest+Internal.h */,
+				A25D72C61A86C474009C923D /* WMRequest.h */,
+				A25D72C71A86C474009C923D /* WMRequest.m */,
+				A25D72CF1A86C796009C923D /* WMRequestBroker.h */,
+				A25D72D01A86C796009C923D /* WMRequestBroker.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		A25D72231A855C38009C923D = {
+			isa = PBXGroup;
+			children = (
+				A25D72311A855C38009C923D /* WeatherSDK */,
+				A25D722E1A855C38009C923D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A25D722E1A855C38009C923D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A25D722D1A855C38009C923D /* WeatherSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A25D72311A855C38009C923D /* WeatherSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A2263FEC1A870D27006A024B /* Framework */,
+			);
+			path = WeatherSDK;
+			sourceTree = "<group>";
+		};
+		A25D72871A86A086009C923D /* Query */ = {
+			isa = PBXGroup;
+			children = (
+				A25D72B51A86B8C3009C923D /* WMTypes.h */,
+				A25D72BF1A86BB28009C923D /* WMParam.h */,
+				A25D72BB1A86BB0F009C923D /* WMCurrentWeatherQuery.h */,
+				A25D72BC1A86BB0F009C923D /* WMCurrentWeatherQuery.m */,
+			);
+			name = Query;
+			sourceTree = "<group>";
+		};
+		A25D72881A86A09B009C923D /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				A25D72A51A86A58F009C923D /* WMCityWeather.h */,
+				A25D72A61A86A58F009C923D /* WMCityWeather.m */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+		A25D72891A86A0BA009C923D /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				A25D72A11A86A3FD009C923D /* WMOperation.h */,
+				A25D72A21A86A3FD009C923D /* WMOperation.m */,
+				A25D72B11A86B87C009C923D /* WMQueryOperation.h */,
+				A25D72B21A86B87C009C923D /* WMQueryOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		A29710B31A8872F90091739C /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A25D722B1A855C38009C923D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25D72C81A86C474009C923D /* WMRequest.h in Headers */,
+				A25D72D51A86CC36009C923D /* WMRequestProtocol.h in Headers */,
+				A25D72B61A86B8C3009C923D /* WMTypes.h in Headers */,
+				A25D72C01A86BB28009C923D /* WMParam.h in Headers */,
+				A25D72BD1A86BB0F009C923D /* WMCurrentWeatherQuery.h in Headers */,
+				A25D72A71A86A58F009C923D /* WMCityWeather.h in Headers */,
+				A25D72CC1A86C58E009C923D /* WMRequest+Internal.h in Headers */,
+				A25D72C31A86BE61009C923D /* WMUtils.h in Headers */,
+				A25D72A31A86A3FD009C923D /* WMOperation.h in Headers */,
+				A25D72B31A86B87C009C923D /* WMQueryOperation.h in Headers */,
+				A25D72D11A86C796009C923D /* WMRequestBroker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A25D722C1A855C38009C923D /* WeatherSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A25D72371A855C38009C923D /* Build configuration list for PBXNativeTarget "WeatherSDK" */;
+			buildPhases = (
+				A25D72281A855C38009C923D /* Sources */,
+				A25D72291A855C38009C923D /* Resources */,
+				A25D722A1A855C38009C923D /* Frameworks */,
+				A25D722B1A855C38009C923D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherSDK;
+			productName = WeatherSDK;
+			productReference = A25D722D1A855C38009C923D /* WeatherSDK.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A25D72241A855C38009C923D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WM;
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					A25D722C1A855C38009C923D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A25D72301A855C38009C923D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A25D72271A855C38009C923D /* Build configuration list for PBXProject "WeatherSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A25D72231A855C38009C923D;
+			productRefGroup = A25D722E1A855C38009C923D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A25D722C1A855C38009C923D /* WeatherSDK */,
+				A25D72301A855C38009C923D /* Temp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A25D72291A855C38009C923D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A25D722F1A855C38009C923D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=\"WeatherSDK\"\nFMK_VERSION=\"A\"\n\nWRK_DIR=\"${SYMROOT}\"\nDEVICE_DIR=\"${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\"\nSIMULATOR_DIR=\"${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\"\n\nINSTALL_DIR=\"Frameworks/${FMK_NAME}.framework\"\n\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos CONFIGURATION_BUILD_DIR=\"${WRK_DIR}/Release-iphoneos\"\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator CONFIGURATION_BUILD_DIR=\"${WRK_DIR}/Release-iphonesimulator\"\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\nmkdir -p \"${INSTALL_DIR}/Versions\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\nmkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\nln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\nln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\nln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\nln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\nrm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A25D72281A855C38009C923D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25D72C91A86C474009C923D /* WMRequest.m in Sources */,
+				A25D72A41A86A3FD009C923D /* WMOperation.m in Sources */,
+				A25D72B41A86B87C009C923D /* WMQueryOperation.m in Sources */,
+				A25D72A81A86A58F009C923D /* WMCityWeather.m in Sources */,
+				A25D72C41A86BE61009C923D /* WMUtils.m in Sources */,
+				A25D72D21A86C796009C923D /* WMRequestBroker.m in Sources */,
+				A25D72BE1A86BB0F009C923D /* WMCurrentWeatherQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A25D72351A855C38009C923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+			};
+			name = Debug;
+		};
+		A25D72361A855C38009C923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+			};
+			name = Release;
+		};
+		A25D72381A855C38009C923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OBJROOT = "$(SYMROOT)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		A25D72391A855C38009C923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				OBJROOT = "$(SYMROOT)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		A25D723B1A855C38009C923D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "BUILD ALL";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		A25D723C1A855C38009C923D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "BUILD ALL";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A25D72271A855C38009C923D /* Build configuration list for PBXProject "WeatherSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25D72351A855C38009C923D /* Debug */,
+				A25D72361A855C38009C923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25D72371A855C38009C923D /* Build configuration list for PBXNativeTarget "WeatherSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25D72381A855C38009C923D /* Debug */,
+				A25D72391A855C38009C923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A25D723A1A855C38009C923D /* Build configuration list for PBXAggregateTarget "Temp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A25D723B1A855C38009C923D /* Debug */,
+				A25D723C1A855C38009C923D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A25D72241A855C38009C923D /* Project object */;
+}
