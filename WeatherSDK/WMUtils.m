@@ -25,4 +25,15 @@
     return 45;
 }
 
++(NSString *) documentsDirectory
+{
+    static NSString *_flDocDir = nil;
+    if (!_flDocDir) {
+        NSArray *arr = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,
+                                                           NSUserDomainMask, YES);
+        _flDocDir = arr[0];
+    }
+    return _flDocDir;
+}
+
 @end

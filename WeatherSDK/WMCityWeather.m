@@ -33,7 +33,7 @@
 
 @interface WMWeatherInfo ()
 @property (readwrite, strong, nonatomic) NSString *desc;
-@property (readwrite, strong, nonatomic) UIImage *icon;
+@property (readwrite, strong, nonatomic) NSString *icon;
 
 -(instancetype) initWithDictionary:(NSDictionary *)dict;
 
@@ -86,7 +86,7 @@
     self = [super init];
     if (self) {
         self.desc = dict[@"description"];
-        self.icon = [UIImage imageNamed:@""];
+        self.icon = dict[@"icon"];
     }
     return self;
 }

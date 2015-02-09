@@ -12,4 +12,5 @@
 +(NSString *) serverUrl;
 +(NSString *) apiKey;
 +(NSTimeInterval) timeout;
++(NSString *) documentsDirectory;
 @end

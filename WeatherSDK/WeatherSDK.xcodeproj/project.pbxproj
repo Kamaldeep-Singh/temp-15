@@ -77,7 +77,6 @@
 		A2263FEC1A870D27006A024B /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				A29710B31A8872F90091739C /* Database */,
 				A25D72871A86A086009C923D /* Query */,
 				A25D72881A86A09B009C923D /* Result */,
 				A25D72891A86A0BA009C923D /* Operations */,
@@ -146,13 +145,6 @@
 				A25D72B21A86B87C009C923D /* WMQueryOperation.m */,
 			);
 			name = Operations;
-			sourceTree = "<group>";
-		};
-		A29710B31A8872F90091739C /* Database */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

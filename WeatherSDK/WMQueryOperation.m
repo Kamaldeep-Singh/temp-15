@@ -69,18 +69,19 @@
             return;
         }
         
-        dispatch_async(dispatch_get_main_queue(), ^{
-            NSMutableArray *arr = [NSMutableArray array];
-            NSArray *list = json[@"list"];
-            if (list) {
-                for (NSDictionary *dict in list) {
-                    id obj = [[self.resultClass alloc] initWithDictionary:dict];
-                    [arr addObject:obj];
-                }
-            } else {
-                [arr addObject:[[self.resultClass alloc] initWithDictionary:json]];
+        //  Some logic
+        NSMutableArray *arr = [NSMutableArray array];
+        NSArray *list = json[@"list"];
+        if (list) {
+            for (NSDictionary *dict in list) {
+                id obj = [[self.resultClass alloc] initWithDictionary:dict];
+                [arr addObject:obj];
             }
-            
+        } else {
+            [arr addObject:[[self.resultClass alloc] initWithDictionary:json]];
+        }
+
+        dispatch_async(dispatch_get_main_queue(), ^{
             weakSelf.completionHandler(arr, nil);
             [weakSelf done];
         });
