@@ -57,5 +57,5 @@
 
 @interface WMWeatherInfo : NSObject
 @property (readonly, nonatomic) NSString *desc;
-@property (readonly, nonatomic) UIImage *icon;
+@property (readonly, nonatomic) NSString *icon;
 @end
