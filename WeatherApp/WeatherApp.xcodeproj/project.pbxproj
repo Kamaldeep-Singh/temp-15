@@ -19,7 +19,6 @@
 		A25D72571A855C59009C923D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A25D72561A855C59009C923D /* Images.xcassets */; };
 		A25D725A1A855C59009C923D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A25D72581A855C59009C923D /* LaunchScreen.xib */; };
 		A26682121A888BC900221383 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A26682111A888BC900221383 /* Default-568h@2x.png */; };
-		A26682251A888E4D00221383 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26682241A888E4D00221383 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 		A25D725F1A855C59009C923D /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25D72641A855C59009C923D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26682111A888BC900221383 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		A26682241A888E4D00221383 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26682251A888E4D00221383 /* CoreData.framework in Frameworks */,
 				A2263FE81A86D77D006A024B /* WeatherSDK.framework in Frameworks */,
 				A2263FE51A86D621006A024B /* CoreLocation.framework in Frameworks */,
 			);
@@ -81,7 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				A2263FE71A86D77D006A024B /* WeatherSDK.framework */,
-				A26682241A888E4D00221383 /* CoreData.framework */,
 				A2263FE41A86D621006A024B /* CoreLocation.framework */,
 				A25D72481A855C59009C923D /* WeatherApp */,
 				A25D72621A855C59009C923D /* WeatherAppTests */,
