@@ -10,6 +10,10 @@
 #import "WMParam.h"
 #import "WMTypes.h"
 
+/**
+ *  Instances of this class do the actual work of firing
+ *  search requests to the server
+ */
 @interface WMQueryOperation : WMOperation
 -(instancetype) initWithQuery:(id<WMParam>)query
                   resultClass:(Class)resultClass

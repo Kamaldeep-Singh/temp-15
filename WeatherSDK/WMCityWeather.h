@@ -10,6 +10,11 @@
 #import <CoreLocation/CLLocation.h>
 #import <UIKit/UIKit.h>
 
+/**
+ *  Instances of this class holds the weather information
+ *  for a particular city.
+ *
+ */
 @interface WMCityWeather : NSObject
 @property (readonly, nonatomic) NSString *cityId;
 @property (readonly, nonatomic) CLLocationCoordinate2D coordinate;
