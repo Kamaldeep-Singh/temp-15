@@ -23,10 +23,4 @@ typedef void (^WMQueryResultBlock)(NSArray *cities, NSError *error);
 
 typedef void (^WMLocationUpdateBlock)(CLLocation *newLocation, NSError *error);
 
-/**
- *  A result block for downloading a photo.
- */
-typedef void (^WMPhotoQueryResultBlock)(UIImage *image, NSError *error);
-
-
 #endif
