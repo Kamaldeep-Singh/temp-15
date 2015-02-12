@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A237F6A41A8C27AD005DB791 /* WMWeatherSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A237F6A31A8C27AD005DB791 /* WMWeatherSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A25D72A31A86A3FD009C923D /* WMOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72A11A86A3FD009C923D /* WMOperation.h */; };
 		A25D72A41A86A3FD009C923D /* WMOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A25D72A21A86A3FD009C923D /* WMOperation.m */; };
 		A25D72A71A86A58F009C923D /* WMCityWeather.h in Headers */ = {isa = PBXBuildFile; fileRef = A25D72A51A86A58F009C923D /* WMCityWeather.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A237F6A31A8C27AD005DB791 /* WMWeatherSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMWeatherSDK.h; sourceTree = SOURCE_ROOT; };
 		A25D722D1A855C38009C923D /* WeatherSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25D72A11A86A3FD009C923D /* WMOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMOperation.h; sourceTree = SOURCE_ROOT; };
 		A25D72A21A86A3FD009C923D /* WMOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMOperation.m; sourceTree = SOURCE_ROOT; };
@@ -111,6 +113,7 @@
 		A25D72311A855C38009C923D /* WeatherSDK */ = {
 			isa = PBXGroup;
 			children = (
+				A237F6A31A8C27AD005DB791 /* WMWeatherSDK.h */,
 				A2263FEC1A870D27006A024B /* Framework */,
 			);
 			path = WeatherSDK;
@@ -154,10 +157,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25D72C81A86C474009C923D /* WMRequest.h in Headers */,
-				A25D72D51A86CC36009C923D /* WMRequestProtocol.h in Headers */,
+				A237F6A41A8C27AD005DB791 /* WMWeatherSDK.h in Headers */,
 				A25D72B61A86B8C3009C923D /* WMTypes.h in Headers */,
 				A25D72C01A86BB28009C923D /* WMParam.h in Headers */,
+				A25D72C81A86C474009C923D /* WMRequest.h in Headers */,
+				A25D72D51A86CC36009C923D /* WMRequestProtocol.h in Headers */,
 				A25D72BD1A86BB0F009C923D /* WMCurrentWeatherQuery.h in Headers */,
 				A25D72A71A86A58F009C923D /* WMCityWeather.h in Headers */,
 				A25D72CC1A86C58E009C923D /* WMRequest+Internal.h in Headers */,

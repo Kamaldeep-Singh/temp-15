@@ -21,6 +21,4 @@
  */
 typedef void (^WMQueryResultBlock)(NSArray *cities, NSError *error);
 
-typedef void (^WMLocationUpdateBlock)(CLLocation *newLocation, NSError *error);
-
 #endif
