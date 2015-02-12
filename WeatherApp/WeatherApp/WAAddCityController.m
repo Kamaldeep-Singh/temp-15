@@ -23,6 +23,7 @@ static NSString * const cityCellId = @"cityCellId";
     
     self.places = [NSMutableDictionary dictionary];
 
+    [self.searchBar becomeFirstResponder];
     [self.tableView registerClass:[UITableViewCell class]
            forCellReuseIdentifier:cityCellId];
 }
@@ -32,8 +33,6 @@ static NSString * const cityCellId = @"cityCellId";
 
 -(void) searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
 {
-    NSLog(@"%@", searchText);
-    
     __weak WAAddCityController *weakSelf = self;
     
     [self.places removeAllObjects];

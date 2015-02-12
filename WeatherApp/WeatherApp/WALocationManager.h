@@ -8,13 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
-#import <WeatherSDK/WMTypes.h>
+
+typedef void (^WALocationUpdateBlock)(CLLocation *newLocation, NSError *error);
 
 @interface WALocationManager : NSObject
 
 + sharedManager;
 
--(void) startWithHandler:(WMLocationUpdateBlock)handler;
+-(void) startWithHandler:(WALocationUpdateBlock)handler;
 -(void) stop;
 
 @end

@@ -10,7 +10,7 @@
 
 @interface WALocationManager () <CLLocationManagerDelegate>
 @property (strong, nonatomic) CLLocationManager *locationManager;
-@property (copy, nonatomic) WMLocationUpdateBlock handler;
+@property (copy, nonatomic) WALocationUpdateBlock handler;
 @end
 
 @implementation WALocationManager
@@ -39,7 +39,7 @@ static WALocationManager *wmLocationMgr = nil;
     return self;
 }
 
--(void) startWithHandler:(WMLocationUpdateBlock)handler
+-(void) startWithHandler:(WALocationUpdateBlock)handler
 {
     wmLocationMgr.handler = handler;
     [wmLocationMgr.locationManager startUpdatingLocation];
